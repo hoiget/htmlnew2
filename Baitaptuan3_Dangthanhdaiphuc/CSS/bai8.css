@@ -1,0 +1,73 @@
+*{padding: 0px;margin: auto;}
+.wrapper{width: 500px;height: 6000px;}
+.boxx {border-color: #85C226 #F7C200 #4493AD #DF127B;text-align: center;
+    border-style: solid;
+    border-width: 10px;
+}
+.boxb {border-color: #85C226 #F7C200 #4493AD #DF127B;text-align: center;
+    border-style: solid dotted groove double;
+    border-width: 10px;
+}
+.boxc {border-color: #85C226 #F7C200 #4493AD #DF127B;text-align: center;
+    border-style: solid ;
+    border-width: 5px 10px 15px 20px;
+}
+.boxd {border-color: #85C226 #F7C200 #4493AD #DF127B;text-align: center;
+    border-style: solid ;
+    border-width: 10px;
+    border-radius: 0px 30px 70px 20px;
+}
+.adv-hemisphere {border-width: 4px 30px 4px 30px;
+    border-style: groove ridge dashed groove;
+    border-color: green;
+    border-radius: 100px 100px 0px 0px;
+    height: 100px;
+    width: 200px;
+    text-align: center; 
+}
+.Roundrectangle{border-radius: 20px;
+    border-style: solid;
+    height: 100px;
+    width: 200px;
+    border-width: 6px;
+    border-color: #d5b234;
+    text-align: center;
+}
+.Avanced-round-rectangle{border-width: 0px 12px 0px 12px;
+    border-style: double;
+    border-color: violet;
+    border-radius: 40px 40px 60px 60px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
+.Bullet{border-radius: 20px 100px 100px 20px;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    border-color: rgb(72, 72, 172);
+    border-width: 6px;
+    border-style: solid;
+}
+.Advanced-leaf{background: orange;
+    border-width: 4px 30px 4px 30px;
+    border-style: solid;
+    border-radius: 0px 120px 0px 120px;
+    border-color: #56c6d9 #56c6d9 #fe2192 #fe2192;
+    height: 80px;
+    width: 250px;
+    text-align: center;
+}
+button{width: 200px;
+    padding: 8px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    color: #ffffff;
+    border-radius: 10px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    font-weight: 900px;
+    font-size: 125%;
+}
