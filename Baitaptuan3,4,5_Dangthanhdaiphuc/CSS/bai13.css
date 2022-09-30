@@ -1,0 +1,8 @@
+.box1{border: solid 2px black;float: left;width: 200px;}
+.box2{border: solid 2px black;float: left;width: 200px;}
+.box3{border: solid 2px black;float: left;width: 200px;}
+.box4{border: solid 2px black;float: left;width: 200px;}
+.box1 img:hover{transform:scale(1.2);}
+.box2 img:hover{transform:scale(1.2);}
+.box3 img:hover{transform:scale(1.2);}
+.box4 img:hover{transform:scale(1.2);}

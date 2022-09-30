@@ -1,0 +1,20 @@
+.wrapper{width: 1089px;height: 500px;background-color: antiquewhite;border: solid 2px black;}
+.content{width: 1089px;height: 300px;border-bottom: solid 2px black;border-top: solid 2px black;}
+header{width: 1089px;height: 100px;}
+section{width: 1089px;height: 300px;}
+footer{width: 1089px;height: 100px;}
+.wrapper1{width: 1089px;height: 500px;background-color: antiquewhite;border: solid 2px black;}
+.content1{width: 1089px;height: 300px;border-bottom: solid 2px black;border-top: solid 2px black;}
+.wrapper1 header{width: 1089px;height: 100px;}
+.content1 section{width: 450px;height: 300px;float: left;}
+.content1 nav{width: 200px;height: 300px;float: left;border-right:solid 2px black ;}
+.content1 aside{width: 200px;height: 300px;float: left;border-right:solid 2px black ;}
+.content1 footer{width: 1089px;height: 100px;}
+.wrapper2{width: 1089px;height: 500px;background-color: antiquewhite;border: solid 2px black;}
+.content2{width: 1089px;height: 300px;border-bottom: solid 2px black;border-top: solid 2px black;}
+.wrapper2 nav{width: 1089px;height: 50px;border-top: solid 2px black;}
+.wrapper2 header{width: 1089px;height: 50px;}
+.content2 section{width: 450px;height: 300px;float: left;}
+.content2 nav{width: 200px;height: 300px;float: left;border-right:solid 2px black ;}
+.content2 aside{width: 200px;height: 300px;float: left;border-right:solid 2px black ;}
+.content2 footer{width: 1089px;height: 100px;}

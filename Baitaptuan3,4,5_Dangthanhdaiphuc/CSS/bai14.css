@@ -1,0 +1,4 @@
+.trantion{width: 1090px;height: 170px;background: #6FAC21;border-radius: 10px;transition: all 2s linear;text-align: justify;
+            border: dashed 3px red;opacity: 0,8;}
+#trantion{color: white;font-size: 14px;text-align: justify;line-height: 16px;transition: all 2s;}
+.trantion:hover{transform: scale(2) rotate(360deg);opacity: 0.8;}
