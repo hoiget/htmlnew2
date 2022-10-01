@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+  </head>
+  <body>
+    <fieldset>
+      <legend>Your message</legend>
+
+      <table>
+        <tr>
+          <td><label for="emailTo">To</label></td>
+          <td>
+            <input
+              type="text"
+              name="txtTo"
+              readonly="readonly"
+              id="emailTo"
+              size="20"
+              value="Example Cafe"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="emailFrom">Your email</label></td>
+          <td>
+            <input
+              type="text"
+              name="txtFrom"
+              id="emailFrom"
+              size="20"
+              tabindex="1"
+              maxlength="250"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td><label for="emailBody">Message</label></td>
+          <td>
+            <textarea
+              name="txtBody"
+              id="emailBody"
+              cols="50"
+              rows="10"
+              tabindex="2"
+            ></textarea>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+
+    <fieldset>
+      <legend>How you found us</legend>
+      <div class="form-row">
+        <label for="txtEmali">How did you hear of us? </label>
+        <input type="text" name="gender3" id="gender3" list="mylist" /> <br />
+        <datalist id="mylist">
+          <option value="Google"></option>
+        </datalist>
+      </div>
+      <div class="form-row">
+        Newsletter
+
+        <input type="checkbox" size="30" id="box" />
+        Ensure this box is checked if you would like to receive email updates
+      </div>
+    </fieldset>
+    <input type="submit" value="Send message" />
+  </body>
+</html>

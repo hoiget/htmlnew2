@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .form-row {
+        margin: 10px 0;
+      }
+
+      label {
+        display: inline-flex;
+        width: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <h1>Contact Us</h1>
+
+      <p>Use the following form to send a message to Example Cafe</p>
+
+      <div class="form-row">
+        <label for="txtEmali">Your email: </label>
+        <input type="email" size="30" id="txtEmail" />
+      </div>
+
+      <div class="form-row">
+        <label for="txtName">Message </label>
+        <textarea
+          class="box"
+          name="comments"
+          id="comments"
+          cols="50"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <div class="form-row">
+        <label for="txtEmali">How did you hear of us? </label>
+        <input type="text" name="gender3" id="gender3" list="mylist" /> <br />
+        <datalist id="mylist">
+          <option value="Google"></option>
+        </datalist>
+      </div>
+
+      <div class="form-row">
+        Newsletter
+
+        <input type="checkbox" size="30" id="box" />
+        Ensure this box is checked if you would like to receive email updates
+      </div>
+
+      <input type="submit" value="Send message" />
+    </form>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" name="form16" method="get" enctype="multipart/form-data">
+      <h1>Travel reservation form</h1>
+      <b>
+        <p>* denotes mandotory</p>
+      </b>
+      Full name*:<br />
+      <input
+        type="text"
+        name="Name"
+        id="Name"
+        autocomplete="true"
+        required
+        maxlength="25"
+        minlength="2"
+        autofocus
+        placeholder="firstName Lastname"
+      />
+      <br />
+      Email address*:<br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        autocomplete="true"
+        required
+        maxlength="25"
+        minlength="2"
+        placeholder="EMAIL_ADDRESS"
+      />
+      <br />
+
+      Select Tour Package*:<br />
+      <input type="text" name="gender3" id="gender3" list="mylist" /> <br />
+      <datalist id="mylist">
+        <option value="Google"></option>
+      </datalist>
+
+      Arrval date*: <br />
+      <input type="date" name="dod" id="bod" /> <br />
+
+      Number of persons*:<br />
+      <input type="text" name="sdt" id="sdt" placeholder="UNKNOWN_TYPE" />
+      <br />
+
+      What would you want to avail?*<br />
+      Boarding <input type="checkbox" size="30" id="box" /><br />
+      Fooding <input type="checkbox" size="30" id="box" /> <br />
+      Sight seeing <input type="checkbox" size="30" id="box" /><br />
+
+      Discout Coupon code: <br />
+      <input type="text" name="code" id="code" placeholder="UNKNOWN_TYPE" />
+      <br />
+      Terms and conditions*: <br />
+      <input type="radio" name="584" id="584" />I agree
+      <input type="radio" name="684" id="684" />I disagree <br />
+      <input type="submit" value="Complete reservation" />
+    </form>
+  </body>
+</html>
