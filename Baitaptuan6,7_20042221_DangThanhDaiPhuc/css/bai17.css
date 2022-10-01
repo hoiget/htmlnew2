@@ -1,0 +1,7 @@
+#frm{width: 500px;height: 1000px;background-color: rgb(217, 215, 237);float: left;border-left: solid 3px crimson;}
+#frm .lable{float: left;line-height: 40px; }
+#frm .inp{float: left;line-height: 40px;}
+#frm .clear{clear: both;}
+h1{text-align: center;}
+#frm .lable1{float: left;line-height: 22px; }
+#frm .inp1{float: left;line-height: 40px;}

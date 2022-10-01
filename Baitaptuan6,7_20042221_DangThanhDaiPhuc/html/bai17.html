@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/bai17.css">
+    <script>
+        function Kiemtratendn() {
+            var re= /*[a-z]\w*/ ;
+            if(re.test(document.getElementById('DN').value.trim())=false)
+            {
+                DN.innerText="bắt buộc,bắt đầu = kí tụ";
+                return false;
+            }
+            else {
+                DN.innerText=" *";
+                return true;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form action="" method="get" id="frm">
+        <fieldset>
+           
+            <legend><h1> Đăng kí tài khoản</h1></legend>
+            <div class="lable1">
+                <label for="lbtDN">Tên đăng nhập:</label> <br>
+                <label for="lbtMK">Mật khẩu:</label> <br>
+                <label for="lbTNLMK">NHập lại mật khẩu:</label>
+            </div>
+            <div class="inp1"></div>
+                <input type="text" name="DN" id="DN"placeholder="Tên đăng nhập"> <br>
+                <input type="text" name="MK" id="MK" placeholder="Mật khẩu"> <br>
+                <input type="text" name="NLMK" id="NLMK" placeholder="NHập lại mật khẩu"> <br>
+            </div>
+            <div class="clear"></div>
+            <br>
+        
+            <caption><b> Thông tin cá nhân</b></caption> 
+        
+        <br>
+            <div class="lable">
+                <label for="lbttsv">Ho va ten:</label> <br>
+                <label for="lbtNS">Ngay sinh:</label> <br>
+                <label for="lbtgt">Gioi tinh:</label> <br>
+                <label for="lbtDC">Địa chỉ:</label> <br>
+                <label for="lbtDT">Điện thoại:</label> <br>
+                <label for="lbtE">Email:</label>
+            </div>
+            <div class="inp">
+                <input type="text" placeholder="Ho va ten"> <br>
+                <input type="date" name="NS" id="NS"> <br>
+                <input type="radio" name="" id="">Nam 
+                <input type="radio" name="" id="">Nu <br>
+                <input type="text" name="DC" id="DC"placeholder="Địa chỉ"> <br>
+                <input type="text" name="DT" id="DT" placeholder="Điện thoại"> <br>
+                <input type="text" name="E" id="E" placeholder="Email"> <br>
+            </div>
+            <div class="clear"></div>
+            <center>
+            <input type="button" value="Đăng kí">
+            <input type="reset" value="Hủy">
+        </center>
+        </fieldset>
+    </form>
+</body>
+</html>
